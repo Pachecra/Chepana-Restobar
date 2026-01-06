@@ -11,12 +11,12 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "allowJs": true,
-    "jsx": "react-jsx", // Wichtig für die React-Erkennung
+    "jsx": "react-jsx",
     "paths": {
       "@/*": ["./*"]
     },
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    "esModuleInterop": true // Erlaubt den Import von React
+    "esModuleInterop": true
   }
 }
